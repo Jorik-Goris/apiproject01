@@ -6,42 +6,6 @@ Dit project bevat het basisproject van API Development.
 
 Deze github repository bevat alle nodige bestanden om dit project op te zetten.
 
-### .github/workflows/docker-build.yml
-Dit bestand configureert onze github pipeline.
-
-### README.md ###
-Documentatie
-
-### docker-compose.yml ###
-Configureert onze docker containers, API en MySQL.
-
-### dockerfile ###
-Gebruikt files in /app om onze container image te builden.
-
-### requirements.txt ###
-Definieert dependencies.
-
-### app/.env ###
-Bevat environment variables, API key voor openweather API in dit geval.
-
-### app/__init__.py ###
-Zorgt ervoor dat bestanden als package worden gezien.
-
-### app/crud.py ###
-Bevat onze database CRUD acties.
-
-### app/database.py ###
-Configureert onze database URL, voor MySQL in dit geval.
-
-### app/main.py ###
-Bevat onze API zelf.
-
-### app/models.py ###
-Bevat onze database models.
-
-### app/schemas.py  ###
-Bevat Pydantic models.
-
 Een github action pipeline zal gewijzigde bestanden in de main branch automatisch detecteren en de docker image rebuilden, waarna deze op dockerhub wordt gepushed.
 
 Okteto cloud zal de docker-compose.yml file gaan gebruiken om de docker images te pullen en op te zetten.
@@ -60,8 +24,45 @@ Deze data kan je in een JSON body posten, ophalen en verwijderen. De data wordt 
 
 Om de API te gebruiken heb je een API key nodig, die geprogrammeerd staan in de main.py file.
 
+### Bestanden ###
 
-## Github actions
+#### .github/workflows/docker-build.yml ####
+Dit bestand configureert onze github pipeline.
+
+#### README.md ####
+Documentatie
+
+#### docker-compose.yml ####
+Configureert onze docker containers, API en MySQL.
+
+#### dockerfile ####
+Gebruikt files in /app om onze container image te builden.
+
+#### requirements.txt ####
+Definieert dependencies.
+
+#### app/.env ####
+Bevat environment variables, API key voor openweather API in dit geval.
+
+#### app/__init__.py ####
+Zorgt ervoor dat bestanden als package worden gezien.
+
+#### app/crud.py ####
+Bevat onze database CRUD acties.
+
+#### app/database.py ####
+Configureert onze database URL, voor MySQL in dit geval.
+
+#### app/main.py ####
+Bevat onze API zelf.
+
+#### app/models.py ####
+Bevat onze database models.
+
+#### app/schemas.py  ####
+Bevat Pydantic models.
+
+### Github actions
 
 Volgende Github action workfile gaat onze pipeline opzetten.
 Deze pipeline gaat de huidige repository gebruiken om een docker image van te builden, en deze te pushen naar de docker hub. 
@@ -69,7 +70,7 @@ Om dit te doen maakt hij gebruik van een docker hub authentication token en de r
 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/2cf8eaf6-483f-43a2-9a69-e889bb66b784)
 
-## Expected result 
+#### Expected result 
 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/04f56cad-d15c-4890-be24-873cf30e4f81)
 
