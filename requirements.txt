@@ -5,3 +5,4 @@ mysql-connector-python==8.0.28
 python-dotenv==0.19.1
 requests==2.26.0 
 pydantic>=1.8.0,<2.0.0
+
