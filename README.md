@@ -33,7 +33,7 @@ Om de API te gebruiken heb je een API key nodig, die geprogrammeerd staan in de 
 Verbind Okteto Cloud met je github repository.
 Deploy daarna in je Dev environment, waarop Okteto de docker-compose.yml file gaat gebruiken om je docker containers op te zetten. Deze docker containers zijn gebuild door je github pipeline.
 
-[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313650-c7057ae9-7261-4418-b942-2be89b033a00.png)
+https://user-images.githubusercontent.com/95848835/282313650-c7057ae9-7261-4418-b942-2be89b033a00.png
 [#insert fotos#](https://user-images.githubusercontent.com/95848835/282313651-c4ff7f1c-82ff-4eb9-a939-399e65856b0b.png)
 [#insert fotos#](https://user-images.githubusercontent.com/95848835/282313652-60c978b8-7fec-4eaa-b55a-ae8ea6ba1aca.png)
 https://user-images.githubusercontent.com/95848835/282313663-53a0ce77-a694-44ac-bf12-bfcff2735839.png
