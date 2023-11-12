@@ -4,3 +4,12 @@ services:
   image: jorikgoris/apiproject01
   ports:
     - "8000:8000"
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: abc123!
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: jorik
+      MYSQL_PASSWORD: abc123!
+    ports:
+      - "3306:3306"
