@@ -1,6 +1,6 @@
 version: "3.9"
 services:
  weather-service:
-  image: jorik-goris/apiproject01
+  image: jorikgoris/apiproject01
   ports:
     - "8000:8000"
