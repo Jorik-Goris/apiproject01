@@ -1,15 +1,19 @@
 version: "3.9"
+
 services:
- weather-service:
-  image: jorikgoris/apiproject01
-  ports:
-    - "8000:8000"
+  weather-service:
+    image: jorikgoris/apiproject01
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+
   mysql:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: abc123!
-      MYSQL_DATABASE: mydb
-      MYSQL_USER: jorik
-      MYSQL_PASSWORD: abc123!
+      MYSQL_ROOT_PASSWORD: example_root_password
+      MYSQL_DATABASE: example_db
+      MYSQL_USER: example_user
+      MYSQL_PASSWORD: example_password
     ports:
       - "3306:3306"
