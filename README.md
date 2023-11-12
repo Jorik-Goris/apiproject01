@@ -33,19 +33,32 @@ Om de API te gebruiken heb je een API key nodig, die geprogrammeerd staan in de 
 Verbind Okteto Cloud met je github repository.
 Deploy daarna in je Dev environment, waarop Okteto de docker-compose.yml file gaat gebruiken om je docker containers op te zetten. Deze docker containers zijn gebuild door je github pipeline.
 
-#insert fotos#
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313650-c7057ae9-7261-4418-b942-2be89b033a00.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313651-c4ff7f1c-82ff-4eb9-a939-399e65856b0b.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313652-60c978b8-7fec-4eaa-b55a-ae8ea6ba1aca.png)
+https://user-images.githubusercontent.com/95848835/282313663-53a0ce77-a694-44ac-bf12-bfcff2735839.png
 
 
 ## Resultaat Postman
 
 Openweather API:
 
-#insert fotos#
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313653-cd70e2c5-b183-4210-b657-70e7146829b1.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313653-cd70e2c5-b183-4210-b657-70e7146829b1.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313654-b9abcdbf-2e04-45dc-bb9e-c7de51a408e4.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313657-7a9648b7-7052-4489-aeed-1e13af8a3534.png)
 
 
 API:
 
-#insert fotos#
-
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313658-e5c5d702-c7de-47a3-85b6-6321625dec5b.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313660-357314bb-62ec-4d77-b636-da5620f29157.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313661-b4865df6-5430-46a3-95b2-8b879b9fa945.png)
 
 ## FastAPI - Swagger UI
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313664-9a68f253-ca1a-4534-a6fc-fdb2d342d66e.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313665-767af8bb-afe9-45bd-a17d-3a26564f2700.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313666-31f410be-7b07-4420-adf2-ba1edf92dbca.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313668-893aeaf0-ab07-42c8-9e05-4209291ed8ea.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313669-b9e48dc9-ffb6-4a61-9a19-1fbb851714b5.png)
+[#insert fotos#](https://user-images.githubusercontent.com/95848835/282313670-37d3e1cc-cc37-435a-9ed6-4ae069667a32.png)
