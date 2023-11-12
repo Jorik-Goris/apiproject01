@@ -2,9 +2,9 @@ from fastapi import Depends, FastAPI, HTTPException, status, Depends, Header
 import requests
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
+import schemas
 import crud
 import models
-import schemas
 from database import SessionLocal, engine
 from fastapi.middleware.cors import CORSMiddleware
 import os
