@@ -28,7 +28,7 @@ jobs:
 
             
       - name: Docker Build
-        run: docker build -t ${{ secrets.DOCKER_USER }}/aiproject01:latest .
+        run: docker build -t ${{ secrets.DOCKER_USER }}/apiproject01:latest .
 
       - name: Upload container to Docker Hub with Push
-        run: docker push ${{ secrets.DOCKER_USER }}/aiproject01:latest
+        run: docker push ${{ secrets.DOCKER_USER }}/apiproject01:latest
