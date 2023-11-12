@@ -9,37 +9,37 @@ Deze github repository bevat alle nodige bestanden om dit project op te zetten.
 ### .github/workflows/docker-build.yml
 Dit bestand configureert onze github pipeline.
 
-### README.md ##
+### README.md ###
 Documentatie
 
-### docker-compose.yml ##
+### docker-compose.yml ###
 Configureert onze docker containers, API en MySQL.
 
-### dockerfile ##
+### dockerfile ###
 Gebruikt files in /app om onze container image te builden.
 
-### requirements.txt ##
+### requirements.txt ###
 Definieert dependencies.
 
-## app/.env ##
+### app/.env ###
 Bevat environment variables, API key voor openweather API in dit geval.
 
-## app/__init__.py ##
+### app/__init__.py ###
 Zorgt ervoor dat bestanden als package worden gezien.
 
-## app/crud.py ##
+### app/crud.py ###
 Bevat onze database CRUD acties.
 
-## app/database.py ##
+### app/database.py ###
 Configureert onze database URL, voor MySQL in dit geval.
 
-## app/main.py ##
+### app/main.py ###
 Bevat onze API zelf.
 
-## app/models.py ##
+### app/models.py ###
 Bevat onze database models.
 
-## app/schemas.py  ##
+### app/schemas.py  ###
 Bevat Pydantic models.
 
 Een github action pipeline zal gewijzigde bestanden in de main branch automatisch detecteren en de docker image rebuilden, waarna deze op dockerhub wordt gepushed.
