@@ -87,6 +87,10 @@ Deploy daarna in je Dev environment, waarop Okteto de docker-compose.yml file ga
 
 ## Resultaat Postman
 
+API KEY:
+![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/6800a2c1-1d1d-49c0-89bb-cef932247a76)
+
+
 Openweather API:
 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/e436c7dd-c348-4add-b312-b5951cf68f14)
