@@ -13,6 +13,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
+      - name: Clear Python pip cache
+        run: |
+          echo "Clearing pip cache"
+          python -m pip cache purge
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
