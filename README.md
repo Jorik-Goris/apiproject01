@@ -6,19 +6,19 @@ Dit project bevat het basisproject van API Development.
 
 Deze github repository bevat alle nodige bestanden om dit project op te zetten.
 
-## .github/workflows/docker-build.yml
+### .github/workflows/docker-build.yml
 Dit bestand configureert onze github pipeline.
 
-## README.md ##
+### README.md ##
 Documentatie
 
-## docker-compose.yml ##
+### docker-compose.yml ##
 Configureert onze docker containers, API en MySQL.
 
-## dockerfile ##
+### dockerfile ##
 Gebruikt files in /app om onze container image te builden.
 
-## requirements.txt ##
+### requirements.txt ##
 Definieert dependencies.
 
 ## app/.env ##
