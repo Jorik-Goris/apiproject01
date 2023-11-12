@@ -1,7 +1,6 @@
 # API basisproject Jorik Goris (r0901062 CCS02)
 
 Dit project bevat het basisproject van API Development.
-foto's: 
 
 ## Documentation
 
@@ -70,7 +69,7 @@ Om dit te doen maakt hij gebruik van een docker hub authentication token en de r
 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/2cf8eaf6-483f-43a2-9a69-e889bb66b784)
 
-## Expected result ##
+## Expected result 
 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/04f56cad-d15c-4890-be24-873cf30e4f81)
 
@@ -94,13 +93,13 @@ Openweather API:
 
 API:
 
-## POST ##
+## POST 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/89bf3fd5-43cb-4ff1-92a4-d0da49ae3a80)
 
-## GET ##
+## GET 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/e2b636f2-2139-40eb-9946-0aedc8da26a5)
 
-## DELETE ##
+## DELETE 
 ![image](https://github.com/Jorik-Goris/apiproject01/assets/95848835/4708d573-1f2c-40c4-b6bc-50df492a94c9)
 
 
